@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruction pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pleas fill up the form</h1>
+    </header>
+    <main>
+        <form>
+            <label for="name">Your Name: <input id="name" type="text" placeholder="Your Name"></label>
+
+            <label for="email">Your Email: <input id="email" type="text" placeholder="Your Email"></label>
+
+            <label for="phone">Your Phone: <input id="phone" type="text" placeholder="Your Phone"></label>
+
+            <fieldset>
+                <legend>Pick One pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="vapa"><input type="radio" name="pitha" id="vapa">Vapa</label>
+                <label for="puli"><input type="radio" name="pitha" id="puli">Puli</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick On or More Vorta</legend>
+
+                <label for="bagun"><input type="checkbox" name="Vorta" id="begun">Begun</label>
+
+                <label for="sorisa"><input type="checkbox" name="Vorta" id="soeisa">sorisa</label>
+
+                <label for="shutki"><input type="checkbox" name="Vorta" id="shutki">shutki</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="20" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
