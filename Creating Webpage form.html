@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Webpage Form</title>
+    <link rel="stylesheet" href="styles.css/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">index</a></li>
+                    <li><a href="instruction form.html">instruction</a></li>
+                    <li>
+                        <a href="Creating Webpage form.html">Creating Webpage Form</a>
+                        <ul class="dropdown" >
+                            <li><a href="index.html">index</a></li>
+                            <li><a href="instruction form.html">instruction</a></li>
+                            <li><a href="Creating Webpage form.html">Creating Webpage Form</a></li>
+                       </li>     
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <H2>Creating a Webpage Form</H2>
+            <form>
+                <div>
+                    <label for="search">Search Your Image Hear:</label>
+                <input type="search" id="photo" placeholder="Mr Khan Picture">
+               <button>Search</button>
+               <br>
+               <br>
+               <img width="200px" src="Image/khorshed.jpeg" alt="Picture Coming Soon">
+               <br>
+               <br>
+               <a href="Image/khorshed.jpeg">For More click hear</a>
+               <br>
+               <br>
+               <h3>Feedback Form:</h3>
+               <label for="Name">Name:</label>
+               <br>
+               <input type="text" placeholder="Your Name">
+               <br>
+               <Label>Date:</Label>
+               <br>
+               <input type="datetime" placeholder="dd/mm/yy">
+               <br>
+               <Label>Comment:</Label>
+               <br>
+               <textarea name="" id="" cols="30" rows="5"></textarea>
+               <br>
+               <br>
+               <button>Submit</button>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <table>
+                <caption>Car Name Table </caption>
+                <thead>
+                    <th>No.</th>
+                    <th>Brand</th>
+                    <th>Price: $</th>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>1</td>
+                    <td>Volvo</td>
+                    <td>$1000</td>
+                   </tr>
+                   <tr>
+                    <td>2</td>
+                    <td>Mercedes</td>
+                    <td>$2000</td>
+                   </tr>
+                   <tr>
+                    <td>3</td>
+                    <td>Saad</td>
+                    <td>$3000</td>
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>Audi</td>
+                    <td>$4000</td>
+                   </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Brand Car Name and Price</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+            <button>Confirm</button>
+            <br>
+            <br>
+            <br>
+               <table>
+                <caption>Table Tennis Tournament</caption>
+                <thead>
+                    <tr>
+                        <td>Round 1</td>
+                        <td>Player A</td>
+                        <td>Player B</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Match 1</td>
+                        <td>Abir</td>
+                        <td>Joha</td>
+                    </tr>
+                    <tr>
+                        <td>Match 2</td>
+                        <td>Ashik</td>
+                        <td>Rumon</td>
+                    </tr>
+                    <tr>
+                        <td>Match 3</td>
+                        <td>Khorshed</td>
+                        <td>Alom</td>
+                    </tr>
+                    <tr>
+                        <td>Match 4</td>
+                        <td>Faisal</td>
+                        <td>Milon</td>
+                    </tr>
+                    <tr>
+                        <td>Final</td>
+                        <td>Winber of match 3</td>
+                        <td>Winner of match 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Champion</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                </tfoot>
+               </table>
+    </main>
+    <footer>
+        <p><small> &copy; 2023. All Right Reserved </small></p>
+    </footer>
+</body>
+</html>
